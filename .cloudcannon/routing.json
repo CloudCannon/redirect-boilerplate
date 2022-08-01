@@ -1,0 +1,9 @@
+{
+    "routes": [
+      {
+        "from": "/(.*)",
+        "status": 301,
+        "to": "https://www.example.com/$1"
+      }
+    ]
+  }
